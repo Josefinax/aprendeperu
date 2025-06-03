@@ -1,0 +1,5 @@
+npm init -y => es para valores prederteminados
+npm i express => es para instalar el framework Express(proyecto de Node.js)
+npm run dev => permite ejecutar el servido
+npm i mysql2 => para instalar mysql2 
+npm i nodemon -D => para indicar que el paquete que estás instalando
