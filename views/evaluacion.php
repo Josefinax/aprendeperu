@@ -5,7 +5,7 @@ if ($conexion->connect_error) {
     die("Error de conexión: " . $conexion->connect_error);
 }
 
-// Recibir datos del formulario
+// Recibir datos del formulario via POST
 $apellidos = $_POST['apellidos'] ?? '';
 $nombres = $_POST['nombres'] ?? '';
 $dni = $_POST['dni'] ?? '';
